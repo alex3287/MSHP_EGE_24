@@ -9,8 +9,6 @@ for a in ABC[1:]:
                     # print(word, set(word))
                     if word != word[::-1]: # проверка на полиндром
                         count += 1
-
-
 print(count)
 
 # print(int('A', 16))
